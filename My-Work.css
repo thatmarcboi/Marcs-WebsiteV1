@@ -1,0 +1,25 @@
+.about-me {
+    background-color: #F9F9F9;
+    border: 2px solid #EEE;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .about-me p {
+    font-family: Consolas, monospace;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  

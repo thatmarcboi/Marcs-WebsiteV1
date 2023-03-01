@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+a:hover {
+  box-shadow: 0 0 10px white;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-text h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  padding: 12px;
+}
+
+.about-me {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Consolas';
+}
+
+.about-me h2 {
+  font-size: 38px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Consolas';
+  text-decoration: underline;
+}
